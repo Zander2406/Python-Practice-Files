@@ -1,9 +1,9 @@
-# a = int(input("Enter number: ")) % 2
+'''a = int(input("Enter number: ")) % 2
 
-# if a == 0:
-#     print("Even")
-# else:
-#     print("Odd")
+if a == 0:
+    print("Even")
+else:
+    print("Odd")'''
 
 
 
