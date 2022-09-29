@@ -37,13 +37,22 @@
 
 
 
-a = int(input("Enter number 1: "))
+'''a = int(input("Enter number 1: "))
 b = int(input("Enter number 2: "))
 
 if a - b == 0 or abs(a - b) == 5 or a + b == 5:
     print(True)
 else:
-    print(False)
+    print(False)'''
+
+'''a = int(input("Enter the first number : "))
+b = int(input("Enter the second number : "))
+sum = a+b
+diff = abs(a-b)
+if a == b or sum == 5 or diff == 5:
+    print(True)
+else:
+    print(sum or diff)'''
 
 
 
