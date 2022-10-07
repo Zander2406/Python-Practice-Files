@@ -1,0 +1,14 @@
+1. git status
+2. git init
+3. git add (-A to add all files)
+4. git commit -m "Add any message"
+5. git remote add origin (link)
+6. git push origin master
+
+To clone a repository
+7. git clone (To download a repository from remote)
+
+To Sync local files with remote repository
+8. git fetch --prune origin
+9. git reset --hard origin/master
+10. git clean -f -d
