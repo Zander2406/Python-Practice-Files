@@ -12,3 +12,9 @@ To Sync local files with remote repository
 8. git fetch --prune origin
 9. git reset --hard origin/master
 10. git clean -f -d
+
+
+11. git branch
+12. git checkout -b "Name of the Branch"
+13. git remote -v
+14. git remote add upstream <link of original repository>
