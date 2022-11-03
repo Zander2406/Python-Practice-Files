@@ -18,3 +18,7 @@ To Sync local files with remote repository
 12. git checkout -b "Name of the Branch"
 13. git remote -v
 14. git remote add upstream <link of original repository>
+15. git push origin <name of the branch in which you want to push>
+
+To pull changes from original repository
+16. git pull
