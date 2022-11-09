@@ -23,9 +23,13 @@ class Student:
     def search(self, roll_num):
         for student in STUDENT_LIST:
             if student.roll_number == roll_num:
-                self.display(student)
-                return
+                return student
         print("Student not in list")
+    
+
+    def delete(self, roll_num):
+        st = self.search(roll_num)
+        STUDENT_LIST.remove(st)
 
 
 
@@ -35,7 +39,9 @@ if __name__ == "__main__":
     Studentx.accept("Ankit", 1, 78, 90)
     Studentx.accept("Swarnava", 2, 78, 90)
     # Studentx.display(STUDENT_LIST[1])
-    Studentx.search(2)
+    # searched_student = Studentx.search(2)
+    # Studentx.display(searched_student)
+    Studentx.delete(4)
 
 
 
